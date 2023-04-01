@@ -34,4 +34,4 @@ document.getElementById('letter').innerHTML = "The mayor of City A, who has litt
 var multiply = num2 * num3;
 var hr = Math.floor(multiply / 60);
 var min = multiply % 60;
-document.getElementById('multiply').innerHTML = 'The last time someone donated to these children was:  (' +multiply+ ') : ' +hr+ "hr " +min+ "min";
+document.getElementById('multiply').innerHTML = 'The last time someone donated to these children was:  (' +multiply+ ' mins) : ' +hr+ "hr " +min+ "min";
