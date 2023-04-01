@@ -1,10 +1,10 @@
-var num1 = (Math.random()*21|0);
+var num1 = Math.ceil((Math.random()*21|0));
 document.getElementById('A').innerHTML = num1;
 
-var num2 = (Math.random()*21|0);
+var num2 = Math.ceil((Math.random()*21|0));
 document.getElementById('B').innerHTML = num2;
 
-var num3 = (Math.random()*21|0);
+var num3 = Math.ceil((Math.random()*21|0));
 document.getElementById('C').innerHTML = num3;
 
 
